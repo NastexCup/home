@@ -264,7 +264,7 @@ body .s4 .formulario button{
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: .2em;
   }
   body .s3,.s4{
@@ -288,6 +288,9 @@ body .s4 .formulario button{
     height: auto;
     border-radius: .3em;
     padding: 16px 0;
+  }
+  body .s4 .whatsapp,.tel{
+    font-size: 1em;
   }
 }
 @media (min-width: 200px){
@@ -321,12 +324,13 @@ body .s4 .formulario button{
     margin: 1em auto;
     text-align: center;
     padding: .2em;
+    overflow: auto;
   }
   body .s2 .tarjeta p{
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: .2em;
   }
   body .s3,.s4{
@@ -356,6 +360,9 @@ body .s4 .formulario button{
     text-align: center;
     margin: 0 auto;
   }
+  body .s4 .whatsapp,.tel{
+    font-size: 1em;
+  }
   body .s4 .formulario .form-{
     display: block;
     width: 300px;
@@ -379,6 +386,24 @@ body .s4 .formulario button{
     margin: 1em auto;
     border: 2px solid #FFF;
     border-radius: .5em;
+    color: #000;
+    font-size: 1em;
+  }
+  body .s4 .formulario .puls{
+    width: 150px;
+    display: block;
+    text-align: center;
+    height: auto;
+    padding: .5em;
+    margin: 1em auto;
+    background-color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: .5em;
+  }
+  body .s4 .formulario button{
+    text-decoration: none;
+    background-color: #FFF;
+    width: 150px;
     color: #000;
     font-size: 1em;
   }
