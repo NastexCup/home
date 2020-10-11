@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Nastex Cup</title>
+  </head>
+  <body>
+  	<div id="fullpage">
+		<div class="section s1">
+      <div class="logo animate__animated animate__fadeIn">
+        <img src="img/cup.png" alt="NastexCup">
+      </div>
+			<h1 class="animate__animated animate__backInUp">Diseños NastexCup</h1>
+      <p>Diseños y Maquetacion Web</p>
+		</div>
+		<div class="section s2">
+			<h2>Quienes Somos?</h2>
+      <div class="tarjeta">
+        <p>Somos una agencia joven que quiere ayudarte a que entres al mundo de la web, de esta forma tu idea, negocio, empresa u organización llegará a conocerse aún más. En la actualidad todos buscamos desde información hasta entretenimiento, desde una computadora, tablet, celular o incluso algunos hasta usan el reloj sin mencionar otras formas. En la época actual en la que vivimos esto es muy importante, y si no te encuentran en la WEB, habrá muchas personas que se estarán perdiendo de lo que haces. Tener una página hoy es darte presencia, es la nueva forma de llegar a más personas sin estar perdiendo tiempo valioso de tu vida.</p>
+      </div>
+      <!--<div class="tarjeta2"></div>-->
+		</div>
+		<div class="section s3">
+			<h4>Diseños</h4>
+      <div class="galeria">
+        <div class="foto">
+          <img src="img/2_pantallas.jpg" alt="">
+        </div>
+        <div class="foto">
+          <img src="img/2_pantallas.jpg" alt="">
+        </div>
+        <div class="foto">
+          <img src="img/2_pantallas.jpg" alt="">
+        </div>
+        <div class="foto">
+          <img src="img/2_pantallas.jpg" alt="">
+        </div>
+      </div>
+		</div>
+		<div class="section s4">
+			<h3>Contactanos</h3>
+
+      <form class="formulario" action="#" method="POST">
+        <input class="form-" type="text" placeholder="Nombre:" name="nombre" required checked>
+        <input class="form-" type="email" placeholder="Email:" name="correo" required checked>
+        <input class="form-" type="tel" placeholder="Teléfono:" name="telefono" required checked>
+        <textarea name="mensaje" placeholder="Mensaje:" required></textarea>
+        <div class="puls"><button type="submit"><i class="far fa-paper-plane"></i> Enviar</button></div>
+      </form>
+
+        <a href="#" class="a1"><div class="whatsapp"><i class="fab fa-whatsapp"></i> Mandanos un Whatsapp</div></a>
+        <a href="#" class="a2"><div class="tel"><i class="far fa-envelope"></i> Mandanos un correo</div></a>
+		</div>
+	</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script>
+	<script>
+		new fullpage('#fullpage', {
+			//options here
+			autoScrolling:true,
+      css3: true,
+      easingcss3: 'ease-out',
+      navigation: true,
+      navigationTooltips: ['Inicio', 'Quienes Somos', 'Diseños', 'Contacto'],
+      sectionsColor : ['RGBA(0,0,0,0.84)', '', 'RGBA(255,255,255,0.13)', 'RGBA(0,0,0,0.5)'],
+      controlArrows: true // Flechas del slide
+			//scrollHorizontally: true
+		});
+
+		//métodos
+		fullpage_api.setAllowScrolling(true);
+	</script>
+  </body>
+</html>
